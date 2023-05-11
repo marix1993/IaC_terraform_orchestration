@@ -21,7 +21,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 - on your local machine type: `Edit the system environmental variables`
 - click `Environmental Variables`
+
 ![env_var.png](file%2Fenv_var.png)
+-
 - click New and add you access key and secret access key naming them both `AWS_ACCESS_KEY_ID` and `AWS_SECRET_KEY_ID`
 
 ## Creating an AWS Instance with Terraform.
@@ -55,7 +57,7 @@ resource "aws_instance" "app_instance"{
 
 ![instance_running.png](file%2Finstance_running.png)
 
-6. 6.Use `terraform destroy` to terminate the VM
+6. Use `terraform destroy` to terminate the VM
 
 
 
