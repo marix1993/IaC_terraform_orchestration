@@ -24,7 +24,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ![env_var.png](file%2Fenv_var.png)
 -
-- click New and add you access key and secret access key naming them both `AWS_ACCESS_KEY_ID` and `AWS_SECRET_KEY_ID`
+- click `New` in `User variables for <user>` and add your access key and secret access key naming them both `AWS_ACCESS_KEY_ID` and `AWS_SECRET_KEY_ID`
 
 ## Creating an AWS Instance with Terraform.
 
