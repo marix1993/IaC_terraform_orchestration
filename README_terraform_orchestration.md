@@ -59,7 +59,9 @@ resource "aws_instance" "app_instance"{
 
 6. Use `terraform destroy` to terminate the VM
 
+## Creating VPC steps
 
+![full_IaC_dia.png](file%2Ffull_IaC_dia.png)
 
 
 
